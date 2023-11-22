@@ -18,11 +18,6 @@ function App() {
         <p>
           <form onSubmit={buttonClick}>
             <input
-              // onKeyDown={(event) => {
-              //   if (event["keyCode"] === 13) {
-              //     buttonClick();
-              //   }
-              // }}
               type="text"
               placeholder="Enter your todo list"
               value={task}
